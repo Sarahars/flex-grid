@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+.main-section {
+  width: auto;
+  height: 100vh;
+  border: 0px solid greenyellow;
+  padding: 16px;
+  background-color: rgb(77, 54, 100);
+}
+
+ul {
+  list-style: none;
+}
+.inner-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+#calc {
+  font-size: 30px;
+  letter-spacing: 3px ; 
+}
+
+#title {
+  font-size: 30px;
+  color: white;
+}
+
+.status-container {
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+}
+#on {
+  border-radius: 16px;
+  border: 1px solid white;
+  width: 72px;
+  padding: 8px;
+  background-color: rebeccapurple;
+}
+
+.display {
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: center; */
+  border: 0;
+  padding: 12px 20px;
+  margin-top: 16px;
+  border-radius: 8px;
+  background-color: palevioletred;
+}
+
+.big-button-container {
+  background-color:palevioletred;
+  margin-top: 35px;
+  padding: 0px 20px;
+  border-radius: 8px;
+  height: 450px;
+
+}
+
+.row-button {
+  margin: 24px;
+}
+
+.button-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.single-button {
+  width: 55px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 8px;
+  border-radius: 6px;
+  border-bottom: 4px solid rgb(77, 54, 100) ;
+
+}
+
+.b-button {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+#circle {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.num {
+  display: flex;
+  justify-content: space-around;
+}
+
+.reset{
+    background-color:rgb(77, 54, 100);
+    color: white;
+    border-bottom: 4px solid gray;
+
+}
+.equal{
+    background-color: red;
+    color: white;
+    border-bottom: 4px solid gray;
+
+}
